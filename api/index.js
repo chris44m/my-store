@@ -22,10 +22,10 @@ const options = {
 
   }
 }
-app.use(cors())
+app.use(cors(options))
 
 app.get('/api', (req, res) => {
-  res.send('hola mi server en expresssss');
+  res.send('hola mi server en EXPRESS');
 });
 
 routerApi(app)
