@@ -6,7 +6,7 @@ const { logErrors, errorHandler, boomErrorHandler, ormErrorHandler } = require('
 
 
 const app = express();
-const port = process.env.DATABASE_URL || 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
