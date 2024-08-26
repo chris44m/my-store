@@ -4,7 +4,7 @@ const { ORDER_TABLE } = require('./../models/orderModel')
 
 const { DataTypes, Sequelize } = require('sequelize');
 
-const { CUSTOMER_TABLE } = require('./customerModel')
+const { CUSTOMER_TABLE } = require('./../models/customerModel')
 
 
 /** @type {import('sequelize-cli').Migration} */
